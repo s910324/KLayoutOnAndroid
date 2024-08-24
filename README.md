@@ -13,8 +13,9 @@ Linux installation using distro provided by https://andronix.app/
 | 7 | Access Android-Ubuntu Klayout interface through RVNC | 1 min      | V          |       | Run          |
 
 
+***
 
-### 1 App installation
+### 1. App installation
 | # | Type        | App name  | Source      | Download link                                                                  | Remark                                                                |
 |---|-------------|-----------|-------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | 1 | PC app      | adb Tools | Google      | https://developer.android.com/tools/releases/platform-tools                    | Fix for "Signal-9" Error for Android 12 and above                     |
@@ -23,7 +24,9 @@ Linux installation using distro provided by https://andronix.app/
 
 Install Apps listed above to corrosponded devices
 
-### 2 Android 12 compatability
+***
+
+### 2. Android 12 compatability
 Full instruction can refer to Androix's article
 https://docs.andronix.app/android-12/andronix-on-android-12-and-beyond#install-adb
 
@@ -38,7 +41,9 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 adb shell settings put global settings_enable_monitor_phantom_procs false
 ```
 
-### 3 Install Linux on Android device
+***
+
+### 3. Install Linux on Android device
 
 * 3.1\. Open Termux
 * 3.2\. Long press the screen and hit the `more` option, and choose `Keep screen on` to 
@@ -48,19 +53,27 @@ pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubus
 ```
 * 3.4\. Occationally it'll requires a user input `Y` or choose region and key boardlayout during the Andriod-Ubuntu intallation process
 
-### 4 Install dependency in Android-Ubuntu  
+***
+
+### 4. Install dependency in Android-Ubuntu  
 * 4.1\. install build dependency through apt-get install, the `libgit2-dev` is required, otherwise will run into `git2 Fatal error`
 ```
 apt-get update&&apt-get install -y qt5ct qt5-qmake gcc g++ make libz-dev libqt5xmlpatterns5-dev qtmultimedia5-dev libqt5multimediawidgets5 libqt5svg5-dev ruby ruby-dev python3 python3-dev libgit2-dev
 ```
-### 5 Download KLayout source to Android-Ubuntu 
+
+***
+
+### 5. Download KLayout source to Android-Ubuntu 
 * 5.1\. Download and unzip the source from KLayout, by paste following commands in Termux.
 Following script uses klayout version 0.29.6 as a example, get latest version from : https://www.klayout.de/build.html
 ```
 wget https://www.klayout.org/downloads/source/klayout-0.29.6.tar.gz
 tar -xvzf klayout-0.29.6.tar.gz
 ```
-### 6 Build KLayout from source
+
+***
+
+### 6. Build KLayout from source
 * 6.1\. Move working directory to unzipped folder and starts the build process
 ```
 cd klayout-0.29.6
