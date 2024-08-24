@@ -60,7 +60,7 @@ Following script uses klayout version 0.29.6 as a example, get latest version fr
 wget https://www.klayout.org/downloads/source/klayout-0.29.6.tar.gz
 tar -xvzf klayout-0.29.6.tar.gz
 ```
-### 6 
+### 6 Build KLayout from source
 * 6.1\. Move working directory to unzipped folder and starts the build process
 ```
 cd klayout-0.29.6
