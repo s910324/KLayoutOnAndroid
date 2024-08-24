@@ -2,6 +2,16 @@
 Setup guide/note for running KLayout on ARM based Android devices
 Linux installation using distro provided by https://andronix.app/
 
+Tested on mid-end spec device, KLayout works smoothly as a viewer, no noticable performance difference between PC when vieweing a 100MB sized gds file.
+Runs almost perfect as a viewer without major issues, but did notice some functions such as ruler snapping and auto measure are not working.
+
+| # | Android version | CPU            | GPU        | RAM   | Type   |
+|---|-----------------|----------------|------------|-------|--------|
+| 1 | Android 12      | Snapdragon 865 | Adreno 650 | 8 GB  | Phone  |
+| 2 | Android 11      | Snapdragon 870 | Adreno 650 | 6 GB  | Tablet |
+
+***
+
 | # | Steps                                                | Time takes | On android | On PC | Type         |
 |---|------------------------------------------------------|------------|------------|-------|--------------|
 | 1 | Download and install essential apps                  | 20 min     | V          | V     | Setup        |
