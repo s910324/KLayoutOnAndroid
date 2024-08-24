@@ -1,5 +1,5 @@
 # KLayoutOnAndroid
-Setup guide for running KLayout on ARM Android devices
+Setup guide/note for running KLayout on ARM based Android devices
 Linux installation using distro provided by https://andronix.app/
 
 | # | Steps                                                | Time takes | On android | On PC | Type         |
@@ -65,7 +65,7 @@ apt-get update&&apt-get install -y qt5ct qt5-qmake gcc g++ make libz-dev libqt5x
 
 ### 5. Download KLayout source to Android-Ubuntu 
 * 5.1\. Download and unzip the source from KLayout, by paste following commands in Termux.
-Following script uses klayout version 0.29.6 as a example, get latest version from : https://www.klayout.de/build.html
+Following script uses klayout version 0.29.6 as an example, get latest version from : https://www.klayout.de/build.html
 ```
 wget https://www.klayout.org/downloads/source/klayout-0.29.6.tar.gz
 tar -xvzf klayout-0.29.6.tar.gz
