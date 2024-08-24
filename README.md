@@ -27,8 +27,8 @@ Install Apps listed above to corrosponded devices
 Full instruction can refer to Androix's article
 https://docs.andronix.app/android-12/andronix-on-android-12-and-beyond#install-adb
 
-* 2.1\. Enable Android 'Developer Options`
-* 2.2\. Enable Android 'USB Debugging` in `Developer Options`
+* 2.1\. Enable Android `Developer Options`
+* 2.2\. Enable Android `USB Debugging` in `Developer Options`
 * 2.3\. Connect Android device to PC through cable
 * 2.4\. use adb command below interminal to solve Phantom process issue
 
