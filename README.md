@@ -1,6 +1,7 @@
 # KLayoutOnAndroid
 Setup guide/note for running KLayout on ARM based Android devices
-Linux installation using distro provided by https://andronix.app/
+* Linux installation using distro provided by https://andronix.app/
+* Cross platform gds Layout software provided by https://www.klayout.de/
 
 Tested on mid-end spec device, KLayout works smoothly as a viewer, no noticable performance difference between PC when vieweing a 100MB sized gds file.
 Runs almost perfect as a viewer without major issues, but did notice some functions such as ruler snapping and auto measure are not working.
